@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+  }
+  input, button, textarea, select {
+    outline: none;
+  }
+  a,span {
+    display: inline-block;
+    text-decoration: none;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  p,.our-popular-text-content ul li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #5A5A5D;
+    text-transform: inherit;
+    line-height: 1.75em;
+  }
+ h2 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #131318;
+    text-transform: capitalize;
+  }
+  .similar-heading p {
+    margin-top: 24px;
+  }
+  .btn a {
+    font-weight: 800;
+    font-size: 20px;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    padding: 14px 35px;
+    border-radius: 8px;
+    transition: .3s;
+  }
+  .btn a:hover {
+    background-color: #3652AD;
+  }
+
+  /* star header area css */
+  .header-area {
+    background-color: #FFFFFF;
+    padding: 45px 0;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-logo a  {
+    display: flex;
+    align-items: center;
+  }
+  .header-logo a img {
+    width: 55px;
+    height: auto;
+    margin-right: 15px;
+}
+.header-logo a span small {
+    font-weight: 800;
+    font-size: 35px;
+    text-transform: capitalize;
+    line-height: normal;
+}
+
+.header-content ul {
+    display: flex;
+    align-items: center;
+}
+.header-content ul li a {
+    font-weight: 400;
+    font-size: 18px;
+    color: #424247;
+    text-transform: capitalize;
+    line-height: normal;
+    margin-left: 40px;
+    transition: .3s;
+}
+.header-content ul li a:hover,.header-content ul li a.active {
+    font-weight: 700;
+    color: #FF5400;
+}
+.mobile-version-icon {
+    display: none;
+}
+
+  /* end header area css */
+
+  /* start hero  area css */
+  .hero-content {
+    background-image: url('../images/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 105px 0;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.hero-content::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/hero-before.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.hero-heading-content h1 {
+    font-weight: 800;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    line-height: normal;
+}
+.hero-heading-content p {
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 45px;
+}
+.hero-heading-content {
+    max-width: 675px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-find-place {
+    max-width: 770px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    border-radius: 8px;
+  
+}
+.hero-find-place form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+}
+.single-select-itmes,.single-find-items,.single-search-btn {
+    position: relative;
+}
+.single-select-itmes svg {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    pointer-events: none;
+}
+.hero-find-place form input,.hero-find-place form select {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    text-transform: inherit;
+    line-height: normal;
+    padding: 15px 15px;
+    width: 175px;
+    border: none;
+    border-radius: 8px;
+}
+.hero-find-place form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    position: relative;
+    cursor: pointer;
+  }
+  .hero-find-place form input[type="submit"] {
+    background-color: #FF5400;
+    color: #FFFFFF;
+    padding-left: 30px;
+    cursor: pointer;
+    font-weight: 700;
+}
+  .single-search-btn svg {
+    position: absolute;
+    left: 25px;
+    top: 12px;
+}
+
+  /* end hero area css */
+
+  /* start our popular area css */
+  .our-popular-area {
+    padding: 100px 0;
+  }
+  .our-popular-content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    column-gap: 50px;
+}
+.our-popular-image-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.our-popular-text-content h2 {
+    margin-bottom: 22px;
+}
+.our-popular-text-content ul {
+    list-style: disc;
+    padding-left: 25px;
+}
+.our-popular-text-content ul li b {
+    color: #000000;
+}
+.our-popular-text-content h2 + p {
+    margin-bottom: 20px;
+}
+.our-popular-text-content h2 ~ ul {
+    margin-bottom: 20px;
+}
+.our-popular-text-content p ~ div {
+    margin-top: 30px;
+}
+.our-popular-text-content ul li {
+    margin-bottom: 15px;
+}
+.our-popular-text-content ul li:last-child {
+    margin-bottom: 0;
+}
+
+  /* end our popular area css */
+
+
+
+  /* MOBILE RESPONSIVE CSS */
+
+
+  @media all and (max-width: 1199px) {
+
+
+  }
+
+  @media all and (max-width: 991px) {
+    .header-content ul li a {
+        font-size: 18px;
+        margin-left: 25px;
+    }
+    .header-logo a span small {
+        font-size: 28px;
+    }
+    .header-logo a img {
+        width: 50px;
+        margin-right: 10px;
+    }
+    .hero-content {
+        padding: 60px 0;
+    }
+    .hero-heading-content h1 {
+        font-size: 50px;
+    }
+    .hero-find-place form input, .hero-find-place form select {
+        width: 195px;
+    }
+    .hero-find-place {
+        max-width: 650px;
+    }
+    .hero-find-place form {
+        justify-content: center;
+    }
+    .our-popular-content {
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 24px;
+    }
+    .our-popular-text-content ul li {
+        margin-bottom: 12px;
+    }
+    .our-popular-area {
+        padding: 50px 0;
+    }
+
+  }
+
+  @media all and (max-width: 767px) {
+    .header-content ul {
+        display: none;
+    }
+    .mobile-version-icon {
+        display: block;
+    }
+    .header-area {
+        padding: 30px 0;
+    }
+    .header-logo a img {
+        width: 42px;
+    }
+    .hero-find-place form {
+        justify-content: center;
+        gap: 12px;
+        align-items: stretch;
+    }
+    .hero-find-place {
+      
+        box-sizing: border-box;
+    }
+    .hero-content {
+        padding: 60px 20px;
+    }
+    .our-popular-area {
+        padding: 35px 0;
+    }
+
+
+  }
+
+  @media all and (max-width: 575px) {
+    p,.our-popular-text-content ul li {
+        font-size: 14px;
+        line-height: normal;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .hero-heading-content h1 {
+        font-size: 22px;
+    }
+    .header-logo a img {
+        width: 30px;
+    }
+    .header-logo a span small {
+        font-size: 22px;
+    }
+    .header-area {
+        padding: 20px 0;
+    }
+    .hero-find-place form input, .hero-find-place form select {
+        width: 100%;
+    }
+    .hero-find-place form {
+        flex-direction: column;
+    }
+    .hero-content {
+        padding: 35px 20px;
+    }
+    .hero-heading-content p {
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .our-popular-area {
+        padding: 25 0;
+    }
+
+  }
+
+  @media all and (max-width: 450px) {
+
+
+  }
