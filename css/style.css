@@ -673,6 +673,9 @@ padding: 100px 0;
     .single-deals-discount-row {
         padding: 30px;
     }
+    .single-deals-discount-child-content {
+        width: 70%;
+    }
 
   }
 
@@ -722,9 +725,15 @@ padding: 100px 0;
     .single-why-choose-us-content {
         flex: 0 0 100%;
     }
-
     .newsletter-left-content,.newsletter-right-content {
         flex: 0 0 100%;
+    }
+    .single-deals-discount-child-content {
+        width: 100%;
+    }
+    .single-deals-discount-row {
+        padding: 30px;
+        padding-top: 185px;
     }
 
   }
@@ -805,7 +814,33 @@ padding: 100px 0;
         width: 28px;
         margin: 0 10px;
     }
+    .single-deals-discount-child-text-content h3 {
+        font-size: 20px;
+    }
+    .single-deals-discount-child-text-content h4 {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    .single-deals-discount-child-content {
+        padding: 25px;
+    }
+    .single-deals-discount-row {
+        padding: 15px;
+        padding-top: 185px;
+    }
+    .single-deals-discount-child-top-content {
+        flex-wrap: wrap;
+    }
+    .single-deals-discount-child-top-content li {
+        margin-bottom: 20px;
+    }
+    .single-deals-discount-child-text-content h3 {
+        margin-top: 0;
+    }
+    .why-choose-us-content,.deals-discount-content {
 
+        margin-top: 25px;
+    }
 
   }
 
