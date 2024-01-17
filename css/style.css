@@ -269,7 +269,9 @@ h2 {
 .our-popular-text-content ul li:last-child {
     margin-bottom: 0;
 }
-
+.who-we-are-area {
+    padding-bottom: 100px;
+}
   /* end our popular area css */
 
   /* start choose destination area css */
@@ -355,7 +357,11 @@ h2 {
         height: 435px;
         border-radius: 15px;
     }
-
+    .our-popular-text-content h3 {
+        font-weight: 800;
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
   /* end simple perfect place area css */
 
   /* start newsletter area css */
@@ -446,7 +452,49 @@ h2 {
 .newsletter-left-content form input[type="submit"]:hover {
     background-color: #3652AD;
 }
+
   /* end newsletter area css */
+
+  /* start footer area css */
+.footer-area {
+background: rgba(19, 19, 24, 0.05);
+padding: 100px 0;
+}
+.footer-top-content {
+    text-align: center;
+}
+.footer-top-content .header-logo a {
+    justify-content: center;
+}
+.footer-copyright-text p{
+    font-weight: 300;
+    color: #131318;
+    padding-top: 50px;
+    border-top: 1px solid rgba(19, 19, 24, 0.10);
+    text-align: center;
+}
+.footer-top-text-social-icon p {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.footer-top-text-social-icon ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.footer-top-text-social-icon ul li a img {
+    width: 35px;
+    height: auto;
+    margin: 0 15px;
+}
+
+
+  /* end footer area css */
+
 
 
 
@@ -495,8 +543,11 @@ h2 {
     .our-popular-text-content ul li {
         margin-bottom: 12px;
     }
-    .our-popular-area,.why-choose-us,.newsletter-area {
+    .our-popular-area,.why-choose-us,.newsletter-area,.footer-area {
         padding: 50px 0;
+    }
+    .who-we-are-area {
+        padding-bottom: 50px;
     }
     .single-destination-content-row img {
         margin-bottom: 15px;
@@ -518,7 +569,28 @@ h2 {
     p, .our-popular-text-content ul li {
         font-size: 15px;
     }
-
+    .newsletter-left-content {
+        padding: 25px;
+        flex: 0 0 43.5%;
+    }
+    .newsletter-left-content form input[type="submit"] {
+        font-size: 16px;
+    }
+    .newsletter-right-save p {
+        font-size: 22px;
+        right: 2px;
+        bottom: 52px;
+        transform: rotate(-28deg);
+    }
+    .newsletter-right-save p span {
+        font-size: 16px;
+    }
+    .newsletter-right-content {
+        flex: 0 0 52.5%;
+    }
+    .who-we-are-content .our-popular-image-content {
+        order: 1;
+    }
 
   }
 
@@ -547,8 +619,17 @@ h2 {
     .hero-content {
         padding: 60px 20px;
     }
-    .our-popular-area,.why-choose-us,.newsletter-area   {
+    .our-popular-area,.why-choose-us,.newsletter-area,.footer-area   {
         padding: 35px 0;
+    }
+    .who-we-are-area {
+        padding-bottom: 35px;
+    }
+    .footer-top-text-social-icon ul {
+        padding-bottom: 35px;
+    }
+    .footer-copyright-text p {
+        padding-top: 35px;
     }
     .choose-destination-content-row {
         gap: 0;
@@ -560,7 +641,9 @@ h2 {
         flex: 0 0 100%;
     }
 
-
+    .newsletter-left-content,.newsletter-right-content {
+        flex: 0 0 100%;
+    }
 
   }
 
@@ -597,8 +680,17 @@ h2 {
         margin-top: 10px;
         margin-bottom: 25px;
     }
-    .our-popular-area,.why-choose-us,.newsletter-area {
+    .our-popular-area,.why-choose-us,.newsletter-area,.footer-area {
         padding: 25 0;
+    }
+    .footer-top-text-social-icon ul {
+        padding-bottom: 25px;
+    }
+    .footer-copyright-text p {
+        padding-top: 25px;
+    }
+    .who-we-are-area {
+        padding-bottom: 25px;
     }
     .similar-heading p {
         margin: 15px 0;
@@ -617,6 +709,19 @@ h2 {
     }
     .our-popular-image-content iframe {
         height: 330px;
+    }
+    .our-popular-text-content h3 {
+        font-size: 18px;
+    }
+    .btn a {
+        font-size: 18px;
+    }
+    .footer-top-text-social-icon p {
+        margin: 15px 0;
+    }
+    .footer-top-text-social-icon ul li a img {
+        width: 28px;
+        margin: 0 10px;
     }
 
 
