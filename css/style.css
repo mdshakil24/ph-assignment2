@@ -269,7 +269,7 @@ h2 {
 .our-popular-text-content ul li:last-child {
     margin-bottom: 0;
 }
-.who-we-are-area {
+.who-we-are-area,.deals-discounts-area {
     padding-bottom: 100px;
 }
   /* end our popular area css */
@@ -350,6 +350,81 @@ h2 {
 }
 
   /* end why choose us area css */
+
+  /* start deals discounts area css */
+  .deals-discount-content {
+    margin-top: 45px;
+  }
+.single-deals-discount-row {
+    padding: 55px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.single-deals-discount-row.second-deals-bg {
+    justify-content: flex-start;
+}
+.single-deals-discount-row:last-child {
+    margin-bottom: 0;
+}
+.first-deals-bg,.third-deals-bg {
+    background-image: url('../images/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.second-deals-bg {
+    background-image: url('../images/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.single-deals-discount-child-content {
+    padding: 50px;
+    border-radius: 15px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 56%;
+}
+.single-deals-discount-child-top-content {
+    display: flex;
+    align-items: center;
+}
+
+.single-deals-discount-child-top-content li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #5A5A5D;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.single-deals-discount-child-top-content li svg {
+    margin-right: 8px;
+}
+.single-deals-discount-child-text-content h3 {
+    font-weight: 800;
+    font-size: 24px;
+    color: #131318;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+.single-deals-discount-child-text-content h4 {
+    font-weight: 800;
+    font-size: 20px;
+    color: #FF5400;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+  /* end deals discounts area css */
+
+
+
+
 
   /* start simple perfect place area css */
     .our-popular-image-content iframe {
@@ -506,6 +581,10 @@ padding: 100px 0;
     .single-why-choose-us-content {
         flex: 0 0 48%;
     }
+    .single-deals-discount-child-content {
+        padding: 30px;
+       
+    }
 
   }
 
@@ -546,7 +625,7 @@ padding: 100px 0;
     .our-popular-area,.why-choose-us,.newsletter-area,.footer-area {
         padding: 50px 0;
     }
-    .who-we-are-area {
+    .who-we-are-area,.deals-discounts-area {
         padding-bottom: 50px;
     }
     .single-destination-content-row img {
@@ -591,6 +670,9 @@ padding: 100px 0;
     .who-we-are-content .our-popular-image-content {
         order: 1;
     }
+    .single-deals-discount-row {
+        padding: 30px;
+    }
 
   }
 
@@ -622,7 +704,7 @@ padding: 100px 0;
     .our-popular-area,.why-choose-us,.newsletter-area,.footer-area   {
         padding: 35px 0;
     }
-    .who-we-are-area {
+    .who-we-are-area,.deals-discounts-area {
         padding-bottom: 35px;
     }
     .footer-top-text-social-icon ul {
@@ -689,7 +771,7 @@ padding: 100px 0;
     .footer-copyright-text p {
         padding-top: 25px;
     }
-    .who-we-are-area {
+    .who-we-are-area,.deals-discounts-area {
         padding-bottom: 25px;
     }
     .similar-heading p {
